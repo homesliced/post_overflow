@@ -1,4 +1,4 @@
-(function() {
+(function() { // immediately invokes the js without polluting the global namespace                                                        
   var app = angular.module('workshop', []);
   app.controller('CalculatorController',['$scope', function($scope) {
     $scope.firstNumber = 1;
